@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+    <classes>
+      <class name="homepage_UI_Testing.Homepage_UI_Testing"/>
+      <class name="flight_Search_Functionality.Flight_Search_Functionality"/>
+      <class name="passenger_Details_Form_Testing.Passenger_Details_Form_Testing"/>
+      <class name="flight_Selection_Process.Flight_Selection_Process"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
